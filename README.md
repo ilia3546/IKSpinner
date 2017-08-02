@@ -7,7 +7,7 @@
 
 It's simple and configurable activity indicator
 
-<img src="https://raw.githubusercontent.com/ilia3546/IKSpinner/master/Screenshots/spinner.gif" alt="iOS screenshot" style="height: 200px;"/>
+<img src="https://raw.githubusercontent.com/ilia3546/IKSpinner/master/Screenshots/spinner.gif" alt="iOS screenshot" height="200"/>
 
 ## Configurable
 
