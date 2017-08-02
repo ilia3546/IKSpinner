@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/IKSpinner.svg?style=flat)](http://cocoapods.org/pods/IKSpinner)
 [![Platform](https://img.shields.io/cocoapods/p/IKSpinner.svg?style=flat)](http://cocoapods.org/pods/IKSpinner)
 
+It's simple and configurable activity indicator
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +24,7 @@ pod "IKSpinner"
 
 ## Author
 
-ilia3546, ilia3546@me.com
+Ilya Kharlamov, ilia3546@me.com
 
 ## License
 

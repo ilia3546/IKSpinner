@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Simple and configurable activity indicator
                        DESC
 
   s.homepage         = 'https://github.com/ilia3546/IKSpinner'
