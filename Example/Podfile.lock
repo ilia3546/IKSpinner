@@ -1,0 +1,16 @@
+PODS:
+  - IKSpinner (0.1.0)
+
+DEPENDENCIES:
+  - IKSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  IKSpinner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IKSpinner: fc4f019e816fa30cf17ad90ff6907cf5b6035d63
+
+PODFILE CHECKSUM: 3b4bb755f1fc378df782a5b914fa508b7f096a9e
+
+COCOAPODS: 1.2.1

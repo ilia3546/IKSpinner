@@ -1,0 +1,22 @@
+{
+  "name": "IKSpinner",
+  "version": "0.1.0",
+  "summary": "A short description of IKSpinner.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ilia3546/IKSpinner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ilia3546": "ilia3546@me.com"
+  },
+  "source": {
+    "git": "https://github.com/ilia3546/IKSpinner.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IKSpinner/Classes/**/*"
+}

@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		629097F02FCB0E8D1BC367F2 /* Pods_IKSpinner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IKSpinner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81CC5C513ACF6F23B241B785 /* IKSpinner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IKSpinner.podspec; path = ../IKSpinner.podspec; sourceTree = "<group>"; };
-		AAE6EC1CFD8D27A9259FF980 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BB7A2D382D4D4CA07FEF3655 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		81CC5C513ACF6F23B241B785 /* IKSpinner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IKSpinner.podspec; path = ../IKSpinner.podspec; sourceTree = "<group>"; };
+		AAE6EC1CFD8D27A9259FF980 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB7A2D382D4D4CA07FEF3655 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F1C7F96B5242F4414E0BE84B /* Pods-IKSpinner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKSpinner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKSpinner_Tests/Pods-IKSpinner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = WV7R3F2TZ6;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = WV7R3F2TZ6;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = 1562802A3BF59DB7444A430C /* Pods-IKSpinner_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WV7R3F2TZ6;
 				INFOPLIST_FILE = IKSpinner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = 046491F42722A59D1EAAB62B /* Pods-IKSpinner_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WV7R3F2TZ6;
 				INFOPLIST_FILE = IKSpinner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1C7F96B5242F4414E0BE84B /* Pods-IKSpinner_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WV7R3F2TZ6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,6 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKSpinner_Example.app/IKSpinner_Example";
 			};
 			name = Debug;
 		};
@@ -543,6 +549,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3096784F1654F62C1845F806 /* Pods-IKSpinner_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = WV7R3F2TZ6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKSpinner_Example.app/IKSpinner_Example";
 			};
 			name = Release;
 		};

@@ -1,0 +1,6 @@
+framework module IKSpinner {
+  umbrella header "IKSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}
