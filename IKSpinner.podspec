@@ -18,7 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Simple and configurable activity indicator
+Simple and configurable activity indicator.
+You can configurate spinner as you want:
+- Line width
+- Line color
+- Speed of rotation
+
+Directly added to the iOS Interface Builder, very easy to integrate into every project!
+
                        DESC
 
   s.homepage         = 'https://github.com/ilia3546/IKSpinner'
