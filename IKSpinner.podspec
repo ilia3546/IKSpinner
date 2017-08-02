@@ -22,7 +22,7 @@ Simple and configurable activity indicator
                        DESC
 
   s.homepage         = 'https://github.com/ilia3546/IKSpinner'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/ilia3546/IKSpinner/master/Screenshots/spinner.gif', 'https://raw.githubusercontent.com/ilia3546/IKSpinner/master/Screenshots/xcode_screenshot.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ilya Kharlamov' => 'ilia3546@me.com' }
   s.source           = { :git => 'https://github.com/ilia3546/IKSpinner.git', :tag => s.version.to_s }

@@ -7,6 +7,19 @@
 
 It's simple and configurable activity indicator
 
+![iOS screenshot](https://raw.githubusercontent.com/ilia3546/IKSpinner/master/Screenshots/spinner.gif)
+
+## Configurable
+
+You can configurate spinner as you want:
+- [x] Line width
+- [x] Line color
+- [x] Speed of rotation
+
+#### Directly added to the iOS Interface Builder, very easy to integrate into every project!
+
+![xCode screenshot](https://raw.githubusercontent.com/ilia3546/IKSpinner/master/Screenshots/xcode_screenshot.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
