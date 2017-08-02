@@ -80,6 +80,9 @@ open class IKSpinner: UIView{
         
         self.layer.addSublayer(self.backgroundLayer!)
 
+
+
+
     }
     
     
@@ -112,11 +115,16 @@ open class IKSpinner: UIView{
         rotationAnimation.isCumulative = true;
         rotationAnimation.repeatCount = HUGE;
         self.backgroundLayer?.add(rotationAnimation, forKey: "rotationAnimation")
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(start), name: NSNotification.Name.UIApplicationWillEnterForeground, object: nil)
+        
     }
     
     
     open func stop() {
         self.backgroundLayer?.removeAllAnimations()
+        
+        NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIApplicationWillEnterForeground, object: nil)
     }
     
 

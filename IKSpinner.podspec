@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IKSpinner'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple and configurable activity indicator'
 
 # This description is used to generate tags and improve search results.
