@@ -1,9 +1,14 @@
 # IKSpinner
 
-[![CI Status](http://img.shields.io/travis/ilia3546/IKSpinner.svg?style=flat)](https://travis-ci.org/ilia3546/IKSpinner)
-[![Version](https://img.shields.io/cocoapods/v/IKSpinner.svg?style=flat)](http://cocoapods.org/pods/IKSpinner)
-[![License](https://img.shields.io/cocoapods/l/IKSpinner.svg?style=flat)](http://cocoapods.org/pods/IKSpinner)
-[![Platform](https://img.shields.io/cocoapods/p/IKSpinner.svg?style=flat)](http://cocoapods.org/pods/IKSpinner)
+![Platform](http://img.shields.io/badge/platform-ios-blue.svg?style=flat)
+[![Cocoapods](https://img.shields.io/badge/Cocoapods-compatible-brightgreen.svg)](https://img.shields.io/badge/Cocoapods-compatible-brightgreen.svg)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
+            )](http://mit-license.org)
+![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![pod](https://img.shields.io/badge/pod-v1.1.0-red.svg)
+
+
+
 
 It's simple and configurable activity indicator
 
