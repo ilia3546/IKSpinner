@@ -108,7 +108,7 @@ open class IKSpinner: UIView{
     }
     
     
-    open func start() {
+    @objc private func start() {
         let rotationAnimation : CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
         rotationAnimation.toValue = NSNumber(value: Double.pi * 2.0)
         rotationAnimation.duration = 1 / self.rotateSpeed;
@@ -121,7 +121,7 @@ open class IKSpinner: UIView{
     }
     
     
-    open func stop() {
+    private func stop() {
         self.backgroundLayer?.removeAllAnimations()
         
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIApplicationWillEnterForeground, object: nil)
